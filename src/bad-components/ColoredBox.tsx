@@ -22,7 +22,11 @@ function ChangeColor({
     );
 }
 
-function ColorPreview({colorIndex}: {colorIndex: number}): React.JSX.Element {
+function ColorPreview({
+    colorIndex,
+}: {
+    colorIndex: number;
+}): React.JSX.Element {
     return (
         <div
             data-testid="colored-box"
